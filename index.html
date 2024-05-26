@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="container">
+          <!--Work Timer-->
+          <div id="work-timer" class="timer">
+           <p id="w_hour">00</p><p class="semicolon">:</p><p id="w_minutes">25</p><p class="semicolon">:</p><p id="w_seconds">00</p>
+        </div>
+    <br>
+   <label for="customMinutes" class="label">Custom Minutes:</label>
+   <input type="number" id="customMinutes" value="25">
+   <button id="setCustomTime">Set Custom Time</button>
+   <br>
+
+   <div id="btt">
+    <button id="start" class="btn">Start</button>
+    <button id="reset" class="btn">Reset</button>
+  </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
